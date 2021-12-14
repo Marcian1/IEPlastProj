@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcian/Desktop/IEP7/Investment.cpp
+iostream
+-
+memory
+-
+
+/home/marcian/Desktop/IEP7/Lock.cpp
+iostream
+-
+mutex
+-
+
+/home/marcian/Desktop/IEP7/main.cpp
+./Lock.cpp
+/home/marcian/Desktop/IEP7/Lock.cpp
+./Investment.cpp
+/home/marcian/Desktop/IEP7/Investment.cpp
+iostream
+-
+memory
+-
+
