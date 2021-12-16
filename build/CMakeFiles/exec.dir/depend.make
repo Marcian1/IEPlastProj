@@ -4,8 +4,12 @@
 CMakeFiles/exec.dir/Investment.cpp.o: ../Investment.cpp
 
 CMakeFiles/exec.dir/Lock.cpp.o: ../Lock.cpp
+CMakeFiles/exec.dir/Lock.cpp.o: ../Uncopyable.cpp
+
+CMakeFiles/exec.dir/Uncopyable.cpp.o: ../Uncopyable.cpp
 
 CMakeFiles/exec.dir/main.cpp.o: ../Investment.cpp
 CMakeFiles/exec.dir/main.cpp.o: ../Lock.cpp
+CMakeFiles/exec.dir/main.cpp.o: ../Uncopyable.cpp
 CMakeFiles/exec.dir/main.cpp.o: ../main.cpp
 

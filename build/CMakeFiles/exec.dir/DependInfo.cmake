@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/marcian/Desktop/IEP7/Investment.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Investment.cpp.o"
   "/home/marcian/Desktop/IEP7/Lock.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Lock.cpp.o"
+  "/home/marcian/Desktop/IEP7/Uncopyable.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Uncopyable.cpp.o"
   "/home/marcian/Desktop/IEP7/main.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

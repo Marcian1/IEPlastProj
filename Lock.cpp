@@ -1,10 +1,12 @@
 //Copy Behaviour Resource Management Classes
+
 #include<iostream>
 #include<mutex>
+#include "./Uncopyable.cpp"
 using namespace std;
 
 
-class Lock{
+class Lock: private Uncopyable{
 public:
 	explicit Lock(mutex* pm) : mutexPtr_(pm){
 		if(mutexPtr_->try_lock()){

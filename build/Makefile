@@ -177,6 +177,33 @@ Lock.cpp.s:
 	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Lock.cpp.s
 .PHONY : Lock.cpp.s
 
+Uncopyable.o: Uncopyable.cpp.o
+
+.PHONY : Uncopyable.o
+
+# target to build an object file
+Uncopyable.cpp.o:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Uncopyable.cpp.o
+.PHONY : Uncopyable.cpp.o
+
+Uncopyable.i: Uncopyable.cpp.i
+
+.PHONY : Uncopyable.i
+
+# target to preprocess a source file
+Uncopyable.cpp.i:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Uncopyable.cpp.i
+.PHONY : Uncopyable.cpp.i
+
+Uncopyable.s: Uncopyable.cpp.s
+
+.PHONY : Uncopyable.s
+
+# target to generate assembly for a file
+Uncopyable.cpp.s:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Uncopyable.cpp.s
+.PHONY : Uncopyable.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Lock.o"
 	@echo "... Lock.i"
 	@echo "... Lock.s"
+	@echo "... Uncopyable.o"
+	@echo "... Uncopyable.i"
+	@echo "... Uncopyable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
