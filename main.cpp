@@ -1,6 +1,9 @@
 
 #include "./Lock.cpp"
 #include "./Investment.cpp"
+
+#include "./Masina.cpp"
+
 #include <iostream>
 
 #include<memory>
@@ -56,6 +59,23 @@ int main(int argc, char *argv[])
 
 
     f();
+
+
+	Motor *motor1 = new Motor("Motor1");
+	Motor *motor2 = new Motor("Motor2");
+	GasStation *gasstation1 = new GasStation("GasStation1");
+	GasStation *gasstation2 = new GasStation("GasStation2");
+	Masina *masina1 = new Masina("Masina1", motor1,gasstation1);
+
+
+	Masina *masina2 = new Masina("Masina2", motor2,gasstation2);
+	//masina1->motor = masina2->motor; COMPILE ERROR
+
+
+	masina1->gasStation = masina2->gasStation;
+	masina1->printMasina();
+
+
 
 	return 0;
 

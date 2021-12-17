@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/marcian/Desktop/IEP7/GasStation.cpp
+iostream
+-
+
 /home/marcian/Desktop/IEP7/Investment.cpp
 iostream
 -
@@ -20,6 +24,20 @@ mutex
 ./Uncopyable.cpp
 /home/marcian/Desktop/IEP7/Uncopyable.cpp
 
+/home/marcian/Desktop/IEP7/Masina.cpp
+iostream
+-
+./Motor.cpp
+/home/marcian/Desktop/IEP7/Motor.cpp
+./GasStation.cpp
+/home/marcian/Desktop/IEP7/GasStation.cpp
+memory
+-
+
+/home/marcian/Desktop/IEP7/Motor.cpp
+iostream
+-
+
 /home/marcian/Desktop/IEP7/Uncopyable.cpp
 
 /home/marcian/Desktop/IEP7/main.cpp
@@ -27,6 +45,8 @@ mutex
 /home/marcian/Desktop/IEP7/Lock.cpp
 ./Investment.cpp
 /home/marcian/Desktop/IEP7/Investment.cpp
+./Masina.cpp
+/home/marcian/Desktop/IEP7/Masina.cpp
 iostream
 -
 memory

@@ -22,4 +22,7 @@ add_executable(${PROJECT_NAME}
 	main.cpp
 	Lock.cpp
 	Investment.cpp
-	Uncopyable.cpp)
+	Uncopyable.cpp
+	Masina.cpp
+	Motor.cpp
+	GasStation.cpp)

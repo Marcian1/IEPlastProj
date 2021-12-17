@@ -109,12 +109,54 @@ CMakeFiles/exec.dir/Uncopyable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Uncopyable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcian/Desktop/IEP7/Uncopyable.cpp -o CMakeFiles/exec.dir/Uncopyable.cpp.s
 
+CMakeFiles/exec.dir/Masina.cpp.o: CMakeFiles/exec.dir/flags.make
+CMakeFiles/exec.dir/Masina.cpp.o: ../Masina.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcian/Desktop/IEP7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exec.dir/Masina.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Masina.cpp.o -c /home/marcian/Desktop/IEP7/Masina.cpp
+
+CMakeFiles/exec.dir/Masina.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Masina.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcian/Desktop/IEP7/Masina.cpp > CMakeFiles/exec.dir/Masina.cpp.i
+
+CMakeFiles/exec.dir/Masina.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Masina.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcian/Desktop/IEP7/Masina.cpp -o CMakeFiles/exec.dir/Masina.cpp.s
+
+CMakeFiles/exec.dir/Motor.cpp.o: CMakeFiles/exec.dir/flags.make
+CMakeFiles/exec.dir/Motor.cpp.o: ../Motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcian/Desktop/IEP7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exec.dir/Motor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Motor.cpp.o -c /home/marcian/Desktop/IEP7/Motor.cpp
+
+CMakeFiles/exec.dir/Motor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Motor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcian/Desktop/IEP7/Motor.cpp > CMakeFiles/exec.dir/Motor.cpp.i
+
+CMakeFiles/exec.dir/Motor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Motor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcian/Desktop/IEP7/Motor.cpp -o CMakeFiles/exec.dir/Motor.cpp.s
+
+CMakeFiles/exec.dir/GasStation.cpp.o: CMakeFiles/exec.dir/flags.make
+CMakeFiles/exec.dir/GasStation.cpp.o: ../GasStation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcian/Desktop/IEP7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exec.dir/GasStation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/GasStation.cpp.o -c /home/marcian/Desktop/IEP7/GasStation.cpp
+
+CMakeFiles/exec.dir/GasStation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/GasStation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcian/Desktop/IEP7/GasStation.cpp > CMakeFiles/exec.dir/GasStation.cpp.i
+
+CMakeFiles/exec.dir/GasStation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/GasStation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcian/Desktop/IEP7/GasStation.cpp -o CMakeFiles/exec.dir/GasStation.cpp.s
+
 # Object files for target exec
 exec_OBJECTS = \
 "CMakeFiles/exec.dir/main.cpp.o" \
 "CMakeFiles/exec.dir/Lock.cpp.o" \
 "CMakeFiles/exec.dir/Investment.cpp.o" \
-"CMakeFiles/exec.dir/Uncopyable.cpp.o"
+"CMakeFiles/exec.dir/Uncopyable.cpp.o" \
+"CMakeFiles/exec.dir/Masina.cpp.o" \
+"CMakeFiles/exec.dir/Motor.cpp.o" \
+"CMakeFiles/exec.dir/GasStation.cpp.o"
 
 # External object files for target exec
 exec_EXTERNAL_OBJECTS =
@@ -123,9 +165,12 @@ exec: CMakeFiles/exec.dir/main.cpp.o
 exec: CMakeFiles/exec.dir/Lock.cpp.o
 exec: CMakeFiles/exec.dir/Investment.cpp.o
 exec: CMakeFiles/exec.dir/Uncopyable.cpp.o
+exec: CMakeFiles/exec.dir/Masina.cpp.o
+exec: CMakeFiles/exec.dir/Motor.cpp.o
+exec: CMakeFiles/exec.dir/GasStation.cpp.o
 exec: CMakeFiles/exec.dir/build.make
 exec: CMakeFiles/exec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcian/Desktop/IEP7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcian/Desktop/IEP7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

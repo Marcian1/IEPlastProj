@@ -123,6 +123,33 @@ exec/fast:
 	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/build
 .PHONY : exec/fast
 
+GasStation.o: GasStation.cpp.o
+
+.PHONY : GasStation.o
+
+# target to build an object file
+GasStation.cpp.o:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/GasStation.cpp.o
+.PHONY : GasStation.cpp.o
+
+GasStation.i: GasStation.cpp.i
+
+.PHONY : GasStation.i
+
+# target to preprocess a source file
+GasStation.cpp.i:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/GasStation.cpp.i
+.PHONY : GasStation.cpp.i
+
+GasStation.s: GasStation.cpp.s
+
+.PHONY : GasStation.s
+
+# target to generate assembly for a file
+GasStation.cpp.s:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/GasStation.cpp.s
+.PHONY : GasStation.cpp.s
+
 Investment.o: Investment.cpp.o
 
 .PHONY : Investment.o
@@ -176,6 +203,60 @@ Lock.s: Lock.cpp.s
 Lock.cpp.s:
 	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Lock.cpp.s
 .PHONY : Lock.cpp.s
+
+Masina.o: Masina.cpp.o
+
+.PHONY : Masina.o
+
+# target to build an object file
+Masina.cpp.o:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Masina.cpp.o
+.PHONY : Masina.cpp.o
+
+Masina.i: Masina.cpp.i
+
+.PHONY : Masina.i
+
+# target to preprocess a source file
+Masina.cpp.i:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Masina.cpp.i
+.PHONY : Masina.cpp.i
+
+Masina.s: Masina.cpp.s
+
+.PHONY : Masina.s
+
+# target to generate assembly for a file
+Masina.cpp.s:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Masina.cpp.s
+.PHONY : Masina.cpp.s
+
+Motor.o: Motor.cpp.o
+
+.PHONY : Motor.o
+
+# target to build an object file
+Motor.cpp.o:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Motor.cpp.o
+.PHONY : Motor.cpp.o
+
+Motor.i: Motor.cpp.i
+
+.PHONY : Motor.i
+
+# target to preprocess a source file
+Motor.cpp.i:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Motor.cpp.i
+.PHONY : Motor.cpp.i
+
+Motor.s: Motor.cpp.s
+
+.PHONY : Motor.s
+
+# target to generate assembly for a file
+Motor.cpp.s:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Motor.cpp.s
+.PHONY : Motor.cpp.s
 
 Uncopyable.o: Uncopyable.cpp.o
 
@@ -240,12 +321,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... exec"
+	@echo "... GasStation.o"
+	@echo "... GasStation.i"
+	@echo "... GasStation.s"
 	@echo "... Investment.o"
 	@echo "... Investment.i"
 	@echo "... Investment.s"
 	@echo "... Lock.o"
 	@echo "... Lock.i"
 	@echo "... Lock.s"
+	@echo "... Masina.o"
+	@echo "... Masina.i"
+	@echo "... Masina.s"
+	@echo "... Motor.o"
+	@echo "... Motor.i"
+	@echo "... Motor.s"
 	@echo "... Uncopyable.o"
 	@echo "... Uncopyable.i"
 	@echo "... Uncopyable.s"

@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/marcian/Desktop/IEP7/GasStation.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/GasStation.cpp.o"
   "/home/marcian/Desktop/IEP7/Investment.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Investment.cpp.o"
   "/home/marcian/Desktop/IEP7/Lock.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Lock.cpp.o"
+  "/home/marcian/Desktop/IEP7/Masina.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Masina.cpp.o"
+  "/home/marcian/Desktop/IEP7/Motor.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Motor.cpp.o"
   "/home/marcian/Desktop/IEP7/Uncopyable.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/Uncopyable.cpp.o"
   "/home/marcian/Desktop/IEP7/main.cpp" "/home/marcian/Desktop/IEP7/build/CMakeFiles/exec.dir/main.cpp.o"
   )
